@@ -1,0 +1,19 @@
+{
+  "database": {
+      "host": "localhost",
+      "port": 3306,
+      "user": "root",
+      "password": "root",
+      "database": "CRUD-API-CASE2"
+  },
+  "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING", 
+  "emailFrom": "info@node-mysql-signup-verification-api.com",
+  "smtpOptions": {
+      "host": "smtp.ethereal.email", 
+      "port": 587,
+      "auth": {
+          "user":"annabel.walker22@ethereal.email",
+          "pass":"c7R9j6NVnu3xmP1Zc3"
+      }
+  }
+}
